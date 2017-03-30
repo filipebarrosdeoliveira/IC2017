@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main () {
+
+int x,y;
+
+scanf ("%d", & x);
+scanf ("%d", & y);
+
+if (x > 0 && x > y) {
+    printf("Maior nmero é: %d", x);
+}
+
+else
+  printf ("Menor nummero é %d", y);
+
+  return 0;
+
+}
